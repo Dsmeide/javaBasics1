@@ -1,0 +1,23 @@
+package c;
+
+public class Logic {
+
+	public static void main(String[] args) {
+		// || && !
+		
+		boolean a = true || true;
+		boolean b = true || false;
+		boolean c = true && true;
+		int d = 3;
+		int e = 4;
+		boolean f = !(d > e) && true;
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(a);
+		System.out.println(f);
+
+	}
+
+}

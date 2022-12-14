@@ -1,0 +1,12 @@
+package c;
+
+public class StringtoINT {
+
+	public static void main(String[] args) {
+		
+		String s = "102";
+		System.out.println(s + 4);
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package c;
+
+public class MainProject {
+
+	public static void main(String[] args) {
+		
+		sayHi();
+		
+	}
+	
+	void sayHi() {
+		System.out.println("Hi");
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package c;
+
+public class StringtoINT {
+
+	public static void main(String[] args) {
+		
+		String s = "102";
+		System.out.println(Integer.parseInt(s) + 4);
+		//turn a string into an int with this method
+		//Integer.parseInt(s);
+		
+		int n = Integer.parseInt(s);
+		
+		int v = Integer.parseInt("8");
+		
+		System.out.println("8" + 4);
+		System.out.println(v + 4);
+		
+		System.out.println(n + 4);
+		
+		String r = "age: 25";
+		r = r.replaceAll("\\D+", "");
+		
+		int b = Integer.parseInt(r);
+		
+		System.out.println(b + 10);
+		
+	}
+
+}

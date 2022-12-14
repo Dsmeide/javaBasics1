@@ -1,0 +1,11 @@
+package c;
+
+public class Types {
+
+	public static void main(String[] args) {
+		//type casting allows you to take one number from a type and store into another type
+		int a = (int) 0.5;
+		System.out.println(a);
+	}
+
+}
